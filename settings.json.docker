@@ -160,16 +160,16 @@
    * Change them if you want to override.
    */
   "padOptions": {
-    "noColors":         false,
-    "showControls":     true,
-    "showChat":         true,
-    "showLineNumbers":  true,
-    "useMonospaceFont": false,
-    "userName":         false,
-    "userColor":        false,
-    "rtl":              false,
-    "alwaysShowChat":   false,
-    "chatAndUsers":     false,
+    "noColors":         "${noColors:false}",
+    "showControls":     "${showControls:true}",
+    "showChat":         "${showChat:true}",
+    "showLineNumbers":  "${showLineNumbers:true}",
+    "useMonospaceFont": "${useMonospaceFont:false}",
+    "userName":         "${userName:true}",
+    "userColor":        "${userColor:true}",
+    "rtl":              "${rtl:false}",
+    "alwaysShowChat":   "${alwaysShowChat:true}",
+    "chatAndUsers":     "${chatAndUsers:true}",
     "lang":             "en-gb"
   },
 
